@@ -1,7 +1,7 @@
 
 Name: app-openvpn-plugin
 Epoch: 1
-Version: 1.0.4
+Version: 1.0.9
 Release: 1%{dist}
 Summary: OpenVPN Policies - APIs and install
 License: LGPLv3
@@ -16,7 +16,6 @@ OpenVPN Policies provide access control for the OpenVPN server app.
 Summary: OpenVPN Policies - APIs and install
 Requires: app-base-core
 Requires: app-accounts-core
-Requires: app-openvpn-core
 
 %description core
 OpenVPN Policies provide access control for the OpenVPN server app.
