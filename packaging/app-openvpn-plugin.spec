@@ -1,9 +1,9 @@
 
 Name: app-openvpn-plugin
 Epoch: 1
-Version: 1.0.10
+Version: 1.1.0
 Release: 1%{dist}
-Summary: OpenVPN Policies - APIs and install
+Summary: OpenVPN Policies - Core
 License: LGPLv3
 Group: ClearOS/Libraries
 Source: app-openvpn-plugin-%{version}.tar.gz
@@ -13,7 +13,7 @@ Buildarch: noarch
 OpenVPN Policies provide access control for the OpenVPN server app.
 
 %package core
-Summary: OpenVPN Policies - APIs and install
+Summary: OpenVPN Policies - Core
 Requires: app-base-core
 Requires: app-accounts-core
 
