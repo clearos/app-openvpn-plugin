@@ -1,7 +1,7 @@
 
 Name: app-openvpn-plugin
 Epoch: 1
-Version: 1.1.0
+Version: 1.6.5
 Release: 1%{dist}
 Summary: OpenVPN Policies - Core
 License: LGPLv3
@@ -54,9 +54,7 @@ exit 0
 %files core
 %defattr(-,root,root)
 %exclude /usr/clearos/apps/openvpn_plugin/packaging
-%exclude /usr/clearos/apps/openvpn_plugin/tests
 %dir /usr/clearos/apps/openvpn_plugin
 /usr/clearos/apps/openvpn_plugin/deploy
 /usr/clearos/apps/openvpn_plugin/language
-/usr/clearos/apps/openvpn_plugin/libraries
 /var/clearos/accounts/plugins/openvpn.php
